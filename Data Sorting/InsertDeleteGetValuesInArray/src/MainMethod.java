@@ -26,6 +26,8 @@ public class MainMethod {
         arrayStructures.linnearSearch(18);
        // arrayStructures.displayArray();
 
+        arrayStructures.displayHorzontally();
+
 
     }
 }

@@ -4,7 +4,7 @@
 public class ArrayStructures {
 
     private int[] myArray = new int[50];
-    private int arraySize = 10;
+    private int arraySize = 5;
 
     //fill array with random number
     public void genRandomArray() {
@@ -24,6 +24,24 @@ public class ArrayStructures {
             System.out.println("----------");
         }
 
+    }
+
+    public void displayHorzontally() {
+        System.out.print("Indexes");
+        for (int i = 0; i < arraySize; i++)
+        {
+
+            System.out.print("   |    " + i );
+
+        }
+        System.out.println();
+        System.out.print("         ---------------------------------------------");
+        System.out.println();
+        System.out.print("Values ");
+        for (int i = 0; i < arraySize; i++) {
+            System.out.print("   |   " + myArray[i]);
+        }
+        System.out.println();
     }
 
     //search element
