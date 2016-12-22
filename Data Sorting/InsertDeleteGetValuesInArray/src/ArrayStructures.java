@@ -12,8 +12,7 @@ public class ArrayStructures {
             myArray[i] = (int) (Math.random() * 10) + 10;
         }
     }
-
-    //print
+    //print result
     public void displayArray() {
         System.out.println("-----------");
         for (int i = 0; i < arraySize; i++) {
@@ -26,6 +25,7 @@ public class ArrayStructures {
 
     }
 
+    //display horizontally
     public void displayHorzontally() {
         System.out.print("Indexes");
         for (int i = 0; i < arraySize; i++)
@@ -85,28 +85,4 @@ public class ArrayStructures {
         }
     }
 
-    //linear search
-    // go through every index
-    public String linnearSearch(int value) {
-        boolean boleanValue = false;
-
-        String indexWithValue = "";
-        System.out.print("Value was found the following indexes: ");
-
-        for (int i = 0; i < arraySize; i++) {
-            if (myArray[i] == value) {
-                boleanValue = true;
-                System.out.print(i + " ");
-                indexWithValue += i + " ";
-            }
-        }
-        if (!boleanValue) {
-
-            indexWithValue = "None!";
-            System.out.print(indexWithValue);
-        }
-        System.out.println();
-        return indexWithValue;
-
-    }
 }

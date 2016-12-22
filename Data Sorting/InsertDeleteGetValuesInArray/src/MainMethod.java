@@ -22,12 +22,5 @@ public class MainMethod {
         arrayStructures.insertValue(3000);
         arrayStructures.displayArray();
 
-        //Linear search
-        arrayStructures.linnearSearch(18);
-       // arrayStructures.displayArray();
-
-        arrayStructures.displayHorzontally();
-
-
     }
 }
