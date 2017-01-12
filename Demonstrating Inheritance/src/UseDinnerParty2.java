@@ -1,13 +1,17 @@
 import java.util.Scanner;
-public class UseDinnerParty
-{
 
+/**
+ * Created by User on 1/12/2017.
+ * demonstrating inheritance and the DainnerParyt2 class has
+ * over method from Party class
+ */
+public class UseDinnerParty2 {
     public static void main(String[] args)
     {
         int guests;
         int choice;
         //Party aParty = new Party();
-        DinnerParty aDinnerParty = new DinnerParty();
+        DinnerParty2 aDinnerParty = new DinnerParty2();
 
         Scanner keyborad = new Scanner(System.in);
         System.out.print("Enter number of guests for the party >>");
