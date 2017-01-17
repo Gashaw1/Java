@@ -8,14 +8,8 @@ public class UseDinnerPartyWithConstructor
 {
     public static void main(String[] args)
     {
-
-
         int guests;
-
         int choice;
-
-
-
 
         Scanner keyborad = new Scanner(System.in);
 
