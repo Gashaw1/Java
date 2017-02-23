@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Created by User on 2/22/2017.
- * Gashawbeza amalto
+
  * Program display uses Service class method to display data
  *
  * This program prompt the user to choose to display the report from  highest to lowest or

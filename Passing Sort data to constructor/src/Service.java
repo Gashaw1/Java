@@ -1,10 +1,4 @@
 
-/**
- * Created by User on 2/22/2017.
- * Gashawbeza Amalto
- * create service class for program to use
- * Service.java
- */
 
 public class Service {
 
