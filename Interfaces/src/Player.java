@@ -1,0 +1,6 @@
+/**
+
+ */
+interface Player {
+    void play();
+}
